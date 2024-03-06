@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+torch = "==2.0.1"
+pandas = "==2.2.1"
+pyyaml = "==6.0.1"
+matplotlib = "==3.8.3"
+tqdm = "==4.66.2"
+torchvision = "==0.15.2"
+opacus = "==1.4.1"
+medmnist = "==3.0.1"
+seaborn = "==0.13.2"
+tensorboard = "==2.16.2"
+
+[dev-packages]
+black = "*"
+isort = "*"
+
+[requires]
+python_version = "3.9"
+python_full_version = "3.9.13"
