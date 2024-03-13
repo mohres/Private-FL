@@ -7,9 +7,7 @@ This repository contains code for the implementation and experimentation of vari
 Paper: [Research Gate](https://www.researchgate.net/publication/377524548_A_Differentially_Private_Federated_Learning_Application_in_Privacy-Preserving_Medical_Imaging)
 
 ## Requirements
-- Python 3.x
-- PyTorch
-- Other dependencies specified in `Pipfile`
+- see `Pipfile`
 
 ## Usage
 ### Configuration
