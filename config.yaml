@@ -6,9 +6,8 @@ global_config:
   save_cm: False
 ---
 data_config:
-  datasets_names: ["bloodmnist", "organamnist"]
+  datasets_names: ["bloodmnist", "organamnist", "pathmnist"]
   data_path: "./data/"
-  num_shards: 4
   iid: False
   task: "multi-class"
   mgn: 3 # Max grad norm for the Privacy Engine
